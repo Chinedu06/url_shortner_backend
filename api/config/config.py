@@ -20,7 +20,7 @@ class DevelopmentConfig(Config):
 
 
 class ProductionConfig(Config):
-    pass
+    FLASK_ENV = 'production'
 
 class TestingConfig(Config):
     TESTING=True
